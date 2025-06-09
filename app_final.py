@@ -5,6 +5,22 @@ import nltk
 import spacy
 import plotly.express as px
 # from moneycontrol_scraper import fetch_moneycontrol_news
+ry:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    subprocess.run([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
+    nlp = spacy.load("en_core_web_sm")
+
 
 # Download necessary NLP resources
 nltk.download('punkt')
