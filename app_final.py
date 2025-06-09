@@ -4,7 +4,7 @@ from textblob import TextBlob
 import nltk
 import spacy
 import plotly.express as px
-# from moneycontrol_scraper import fetch_moneycontrol_news
+from moneycontrol_scraper import fetch_moneycontrol_news
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
