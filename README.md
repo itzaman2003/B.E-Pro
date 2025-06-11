@@ -1,6 +1,7 @@
 # 📈 Financial News Analyzer
 
 A Streamlit app for real-time financial news aggregation, sentiment analysis, and topic classification using NLP.
+https://b-e-pro.onrender.com
 
 ## 🔧 Features
 - Scrapes news from Moneycontrol
