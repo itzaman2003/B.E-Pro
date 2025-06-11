@@ -10,10 +10,8 @@ matplotlib==3.8.4
 scikit-learn==1.4.2
 requests==2.32.2
 beautifulsoup4==4.12.3
-lxml==5.2.1
+lxml[html_clean]==5.2.1
 newspaper3k==0.2.8
-
-# Explicit dependencies for newspaper3k
 Pillow==10.3.0
 cssselect==1.2.0
 feedparser==6.0.11
